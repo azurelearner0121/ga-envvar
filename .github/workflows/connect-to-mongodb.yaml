@@ -1,0 +1,21 @@
+name: Connect to mongo DB
+
+on: 
+  workflow_dispatch:
+
+env:
+  MONGOB_DATABASE: ga-database
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+    steps:
+    
+  
+  deploy:
+    runs-on:
+    steps:
+   
+  
+  
